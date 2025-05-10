@@ -45,26 +45,26 @@ Example:
 
 This file defines the Question class. Each Question object stores:
 
-    text: The question itself.
+- text: The question itself.
 
-    answer: The correct answer.
+- answer: The correct answer.
 
-    class Question:
-        def __init__(self, text, answer):
-            self.text = text
-            self.answer = answer
+        class Question:
+            def __init__(self, text, answer):
+                self.text = text
+                self.answer = answer
 
 ### 3. quiz_brain.py
 
 This file controls the quiz logic! It contains the QuizBrain class, which:
 
-    Tracks the current question number.
+- Tracks the current question number.
 
-    Keeps the score.
+- Keeps the score.
 
-    Shows the next question.
+- Shows the next question.
 
-    Checks if the answer is correct.
+- Checks if the answer is correct.
 
 Key methods:
 
@@ -78,11 +78,11 @@ Key methods:
 
 This is the main driver file. It:
 
-    Loads the questions from data.py.
+- Loads the questions from data.py.
 
-    Creates Question objects.
+- Creates Question objects.
 
-    Starts the quiz loop.
+- Starts the quiz loop.
 
 - At the end, it prints your final score.
 
